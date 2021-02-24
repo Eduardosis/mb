@@ -1,0 +1,28 @@
+<html>
+
+<head>
+	<title>Registro</title>
+	<meta name="robots" content="index"/>
+	<meta http-equiv="Content-type" content="text/html; charset charset=UTF-8"/>
+	<link rel="stylesheet" href="css/css.css" type="text/css" />
+</head>
+
+<body>
+    <form class="iniciar" method="post" action="insertar.php">
+        <section class="form-register">
+            <button type="button" class="inicio"> <a href="index.html">Inicio</a></button>
+            <h4 align="center">Registro</h4>
+            <input class="controls" type="name" name="nombre" id="nombre" placeholder="Ingrese su Nombre">
+            <input class="controls" type="name" name="ape_pat" id="ape_pat" placeholder="Apellido paterno">
+            <input class="controls" type="name" name="ape_mat" id="ape_mat" placeholder="Apellido materno">
+            <input class="controls" type="email" name="correo" id="correo" placeholder="Ingrese su Correo">
+            <input class="controls" type="password" name="contra" id="contra" placeholder="Ingrese su Contraseña" maxlength="16" required pattern="[a-z A-z 0-9_+-$]{8,}">
+            <p><label for="acepto"> <input type="radio" name="condiciones" id="condiciones" value="1"> Estoy de acuerdo con Terminos y condiciones</label></p>
+
+            <input class="boton" type="submit" value="Registrar">
+            <p><a href="index.html">¿Ya tengo Cuenta?</a></p>
+        </section>
+    </form>
+</body>
+
+</html>
